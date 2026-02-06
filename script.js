@@ -30,3 +30,15 @@ btnSupprimer.addEventListener('click', () => {
         paragraphes[paragraphes.length -1].remove()
     }
 })
+
+const creationTicket = document.querySelector('#creation');
+
+creationTicket.addEventListener('click', () => {
+  console.log('Bouton cliqué !');
+});
+
+creationTicket.addEventListener('click', () => {
+    const element = document.createElement('article')
+    element.innerHTML = '<div><h2>Problème : Écran noir au démarrage</h2><p>Bonjour jai un problème au démarrage. Mon écran sallume en noir.</p><h3>Priorité : Basse</h3><p class="demandeur">Demandeur : Jean Dupont</p></div><button id="remove">Supprimer</button>'
+    zone.appendChild(element)
+})
