@@ -39,6 +39,6 @@ creationTicket.addEventListener('click', () => {
 
 creationTicket.addEventListener('click', () => {
     const element = document.createElement('article')
-    element.innerHTML = '<div><h2>Problème : Écran noir au démarrage</h2><p>Bonjour jai un problème au démarrage. Mon écran sallume en noir.</p><h3>Priorité : Basse</h3><p class="demandeur">Demandeur : Jean Dupont</p></div><button id="remove">Supprimer</button>'
+    element.innerHTML = '<div><h2>Problème : Création site web !</h2><p>Bonjour j arrive pas à faire un site web</p><h3>Priorité : Très HAUTE</h3><p class="demandeur">Demandeur : Victor PUILLET</p></div><button id="remove">Supprimer</button>'
     zone.appendChild(element)
 })
