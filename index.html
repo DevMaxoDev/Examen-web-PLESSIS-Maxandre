@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Helpdesk</title>
+</head>
+<body>
+<header>
+    <h1>Helpdesk - Tickets</h1>
+    <nav>
+    <ul>
+        <li><a href="#">#Tickets</a></li>
+        <li><a href="#">#Recherche</a></li>
+        <li><a href="#">#Nouveau</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+
+    <article class="tickets" id="main-tickets">
+        <div>
+            <h2>Problème : Écran noir au démarrage</h2>
+            <p>Bonjour j'ai un problème au démarrage. Mon écran s'allume en noir.</p>
+            <h3>Priorité : Basse</h3>
+            <p class="demandeur">Demandeur : Jean DUPONT</p>
+        </div>
+    </article>
+    <article class="tickets" id="main-tickets">
+        <div>
+            <h2>Problème : Écran noir au démarrage</h2>
+            <p>Bonjour j'ai un problème au démarrage. Mon écran s'allume en noir.</p>
+            <h3>Priorité : Basse</h3>
+            <p class="demandeur">Demandeur : Jean DUPONT</p>
+        </div>
+    </article>
+    <article class="tickets" id="main-tickets">
+        <div>
+            <h2>Problème : Écran noir au démarrage</h2>
+            <p>Bonjour j'ai un problème au démarrage. Mon écran s'allume en noir.</p>
+            <h3>Priorité : Basse</h3>
+            <p class="demandeur">Demandeur : Jean DUPONT</p>
+        </div>
+    </article>
+    <article class="tickets" id="main-tickets">
+        <div>
+            <h2>Problème : Écran noir au démarrage</h2>
+            <p>Bonjour j'ai un problème au démarrage. Mon écran s'allume en noir.</p>
+            <h3>Priorité : Basse</h3>
+            <p class="demandeur">Demandeur : Jean Dupont</p>
+        </div>
+    </article>
+
+</main>
+
+<section>
+    <div id="infos">
+        <h2 id="title"></h2>
+        <div id="zone"></div>
+        <button id="add">Ajouter</button>
+        <button id="remove">Supprimer</button>
+        <br>
+        <input type="text" id="resultat-recherche">
+        <button id="btnClick">Cliquez ici</button>
+        <div id="resultat"></div>
+
+        <ul id="listeTaches"></ul>
+    </div>
+</section>
+
+
+<form class="création-ticket">
+    <label for="monId">Création d'un ticket :</label><br>
+    <input type="text" id="titre-ticket"><br>
+    <input type="text" id="nom-ticket">
+    <button id="ajouter">Créer le ticket</button>
+</form>
+
+
+<footer>
+    PLESSIS Maxandre fait le 06/02/26
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
